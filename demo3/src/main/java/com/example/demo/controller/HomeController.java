@@ -1,12 +1,20 @@
 package com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import com.example.demo.dto.DemoDTO;
+
 // @: 어노테이션
 // @Controller: 해당 클래스를 턴트롤러 클래스로 스프링빈에 등록
 // 스프링빈: 스프링이 관리해주는 자바 객체
+import org.springframework.web.bind.annotation.RequestBody;
+
 @Controller
 public class HomeController {
 	// /: 주소에 대해 get 요청이 front로 부터 오면 아래 메서드 실행
@@ -53,5 +61,44 @@ public class HomeController {
 		System.out.println("p2="+p2);
 		return "index";
 	}
+	
+	
+	// ---------
+	// 백엔드에서 프론트로 값을 보내기
+	@GetMapping("/model1")
+	public String model1(Model model) {
+		String str1 = "오늘은 금요일";
+		// 화면에 가져갈 데이터를 담음
+		model.addAttribute("s1",str1);//담를 데이터이름 s1(String) 
+		return "model1";
+	}
+	
+	@GetMapping("/form2")
+	public String form2() {
+		System.out.println("form2메서드 호출");
+		return "form2";
+	}
+	
+	@PostMapping("/form-param2")
+	public String formParam2(Model model, @RequestParam("n1") String n1){
+		model.addAttribute("n1",n1);
+		return "model2";
+	}
+	
+	@GetMapping("/form3")
+	public String form3() {
+		System.out.println("form3메서드 호출");
+		return "form3";
+	}
+	
+	@PostMapping("/form-param3")
+//	public String formParam3(@RequestParam("name") String name,
+//							@RequestParam("age") int age) {
+	public String formPatam3(Model model,@ModelAttribute DemoDTO demoDTO) {
+//		System.out.println("name="+name+", age=" + age);
+		System.out.println(demoDTO);
+		model.addAttribute("demo",demoDTO);
+		return "model3";
+	}	
 	
 }
