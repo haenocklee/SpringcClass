@@ -6,7 +6,6 @@
 </head>
 <body>
 	<h2>form3.html</h2>
-	<!-- form은 html을 java로 보낼때 사용 -->
 	<form action="/form-param3" method="post">
 		name: <input type="text" name="name">
 		age: <input type="text" name="age">

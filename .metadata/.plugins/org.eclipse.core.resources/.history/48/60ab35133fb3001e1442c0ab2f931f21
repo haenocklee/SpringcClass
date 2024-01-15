@@ -40,6 +40,5 @@
 	 	form-param3 주소를 처리하는 컨트롤러에서는 name, age 값을 print한다.
 	  -->
 	  <a href="/form3">form3링크</a>
-	  <a hreg="/model4">model4링크</a>
 </body>
 </html>
