@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PatchMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration"/>
+    <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
+    <fullyQualifiedTypeName name="com.example.student.repository.StudentRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="com.example.student.service.StudentService"/>
+    <fullyQualifiedTypeName name="com.example.student.dto.StudentDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.AutoConfiguration"/>
+    <fullyQualifiedTypeName name="com.example.student.dto.BookDTO"/>
+    <fullyQualifiedTypeName name="com.example.student.service.BookService"/>
+    <fullyQualifiedTypeName name="com.example.student.repository.BookRepository"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+    <fullyQualifiedTypeName name="com.example.book.serviice.BookService"/>
+    <fullyQualifiedTypeName name="com.example.book.repository.BookRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionTemplate"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.example.book.dto.BookDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 </qualifiedTypeNameHistroy>
