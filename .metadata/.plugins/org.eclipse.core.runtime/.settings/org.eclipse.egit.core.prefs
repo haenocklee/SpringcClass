@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\development\\spring_boot_develropment\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=C\:\\development\\spring_boot_develropment\\.git;C\:\\Users\\user\\Documents\\jsprit\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;C\:\\Users\\user\\Documents\\jsprit\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

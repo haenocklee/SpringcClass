@@ -29,4 +29,10 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.example.book.dto.BookDTO"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="com.graphhopper.jsprit.analysis.toolbox.GraphStreamViewer"/>
+    <fullyQualifiedTypeName name="com.graphhopper.jsprit.analysis.toolbox.GraphStreamViewer.Label"/>
+    <fullyQualifiedTypeName name="com.graphhopper.jsprit.io.problem.VrpXMLWriter"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.graphhopper.jsprit.core.problem.vehicle.VehicleImpl"/>
+    <fullyQualifiedTypeName name="com.graphhopper.jsprit.core.problem.vehicle.VehicleImpl.Builder"/>
 </qualifiedTypeNameHistroy>
